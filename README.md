@@ -21,13 +21,17 @@
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local. `git clone <URL_DEL_REPOSITORIO>`
-2. Navega al directorio del proyecto. `cd nombre_del_proyecto`
+1. Clona este repositorio en tu máquina local. `git clone https://github.com/katarro/TaskTrackerCLI.git`
+2. Navega al directorio del proyecto. `cd TaskTrackerCLI`
 3. Asegúrate de tener Node.js instalado en tu sistema. Puedes verificar esto con: `node -v`
+4. Instala las dependencias del proyecto. Asegúrate de que también esté instalado TypeScript y las definiciones de tipo necesarias.
+`npm install`
+5. Compila el código TypeScript a JavaScript.
+`tsc index.ts`
 
 ## Uso
 
-Ejecuta el programa utilizando Node.js desde la línea de comandos. `node index.js`
+Ejecuta el programa utilizando Node.js desde la línea de comandos. `npm run start`
 
 ### Comandos Disponibles
 
