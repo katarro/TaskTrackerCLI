@@ -1,0 +1,18 @@
+{
+  "name": "tasktrackercli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "tslint": "^5.12.1",
+    "typescript": "^5.5.4"
+  }
+}
